@@ -34,3 +34,5 @@ interface User{
 function f3<User>({}){
 
 }
+
+export {}
