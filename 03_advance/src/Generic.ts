@@ -31,8 +31,11 @@ interface User{
     name:string;
     age:number;
 }
-function f3<User>({}){
-
+function f3<User>(val:User):object{
+    return {
+        val
+    }
 }
+f3({name:"anu",age:20})
 
 export {}
